@@ -1,6 +1,7 @@
 {
   "name": "hipaa-slide-platform",
   "version": "0.1.0",
+  "homepage": "https://AndrewPace2014.github.io/hipaa-slide-platform",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
@@ -22,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,22 +48,4 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
-}
-{
-  "name": "hipaa-slide-platform",
-  "version": "0.1.0",
-  "homepage": "https://AndrewPace2014.github.io/hipaa-slide-platform",
-  "private": true,
-  "dependencies": {
-    // ... your existing dependencies
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  // ... rest of your existing config
 }
